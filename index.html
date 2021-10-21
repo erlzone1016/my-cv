@@ -6,7 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erlson David E. Escalante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: m-icon;
+            src: url(./fonts/material-icons-regular.ttf);
+        }
+
+        .m-icon{
+            font-family: m-icon;
+            font-size: 16px;
+            /* width: 40px; */
+            /* height: 40px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 6px;
+        }
         :root{
             --pc: #2962FF;
             --tc: #333;
@@ -19,13 +37,13 @@
         }
 
         body, h1, h2, h3, h4, li{
-            font-family: 'Segoe UI', 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Roboto', 'Segoe UI', 'Arial', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .h-con{
             background-color: var(--pc);
             padding-top: 32px;
-            padding-bottom: 16px;
+            padding-bottom: 32px;
         }
 
         .h-con h1,
@@ -50,8 +68,8 @@
 
         .h-name{
             text-align: center;
-            border-bottom: solid 2px var(--pc);
-            padding-bottom: 16px;
+            /* border-bottom: solid 2px var(--pc); */
+            /* padding-bottom: 16px; */
             color: #FFF;
         }
 
@@ -94,6 +112,16 @@
             color: #333;
         }
 
+        .h-sub-title{
+            text-align: center;
+            color: #FFF;
+            opacity: 0.7;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+        }
+
         @media screen and (max-width: 600px) {
             .content{
                 padding: 32px;
@@ -106,7 +134,9 @@
     <div class="paper">
         <div class="h-con">
             <h1 class="ini-circle">E</h1>
-            <h2 class="h-name">ERLSON DAVID E. ESCALANTE</h2>
+            <h2 class="h-name" style="margin-bottom: 0px;">ERLSON DAVID E. ESCALANTE</h2>
+            <div class="h-sub-title"><div class="m-icon">&#xe0be;</div> erlzone1@gmail.com</div>
+            <div class="h-sub-title"><div class="m-icon">&#xe0b0;</div>+63 976 003 7116</div>
         </div>
         <div class="content">
             <h3>ABOUT ME</h3>
@@ -125,7 +155,7 @@
                     library. <span class="lt">(March, 2017 – January, 2018)</span></li>
             </ul>
             <h3 class="padd-top">SAMPLE PERSONAL PROJECT</h3>
-            <p>A web scraping application to read Manhwa/Manga/Comics without Ads.<br /><a
+            <p>A web scraping application to read Manhwa/Manga/Comics without Ads. <span class="lt">(Intended for Mobile Users)</span><br /><a
                     href="https://erl-manhwa.herokuapp.com/">https://erl-manhwa.herokuapp.com/</a></p>
             <h4>Tech used:</h4>
             <ul>
