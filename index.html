@@ -53,8 +53,8 @@
 
         .h-con {
             background-color: var(--pc);
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding-top: 24px;
+            padding-bottom: 24px;
         }
 
         .h-con h1,
@@ -72,7 +72,7 @@
             justify-content: center;
             margin-left: auto !important;
             margin-right: auto !important;
-            margin-bottom: 16px !important;
+            margin-bottom: 8px !important;
             border-radius: 50%;
             padding: 0px;
         }
@@ -85,11 +85,13 @@
         }
 
         .content {
-            padding: 16px 72px;
+            padding: 16px 56px;
         }
 
         h3 {
             color: var(--pc);
+            font-size: 16px;
+            margin-bottom: 6px;
             /* margin-top: 32px; */
         }
 
@@ -98,13 +100,18 @@
         }
 
         .padd-top {
-            margin-top: 32px;
+            margin-top: 24px;
+           
         }
 
         p,
         li {
             color: var(--tc);
             font-size: 14px;
+        }
+
+        p{
+            margin-top: 6px;
         }
 
         .paper {
@@ -120,8 +127,12 @@
             font-style: italic;
         }
 
-        h4 {
+        h4, h5 {
             color: #333;
+        }
+
+        h5 {
+            margin-bottom: 8px;
         }
 
         .h-sub-title {
@@ -132,6 +143,7 @@
             align-items: center;
             flex-direction: row;
             justify-content: center;
+            font-size: 14px;
         }
 
         @media screen and (max-width: 600px) {
@@ -184,22 +196,43 @@
             <p>A web scraping application to read Manhwa/Manga/Comics without Ads. <span class="lt">(Intended for Mobile
                     Users)</span><br /><a href="https://erl-manhwa.herokuapp.com/">https://erl-manhwa.herokuapp.com/</a>
             </p>
-            <h4>Tech used:</h4>
-            <ul>
+            <h4 style="margin-bottom: 0px; margin-top: 4px;  font-size: 14px;">Tech used:</h4>
+            <ul style="margin-top: 4px;">
                 <li><strong>ReactJS</strong> (Frontend)</li>
                 <li><strong>Nodejs</strong> (Backend - for Web version)</li>
                 <li><strong>Cordova</strong> (Substitute Backend - for Android version)</li>
             </ul>
 
             <h3 class="padd-top">OTHER PROJECTS <span class="lt">(Confidential)</span></h3>
+            <h5>Split Second Software Services Tasks</h5>
+            <ul>
+                <li>
+                    Built survey engines. Making it interactive and fun. <i>(June 2021 - Present)</i>
+                    <ul>
+                        <li><i>VueJS</i> as frontend framework</li>
+                        <li>I made all css style (no UI frameworks)</li>
+                        <li><i>GSAP</i> for JavaScript animation library</li>
+                    </ul>
+                </li>
+                <li>
+                    Built mobile app survey engine. <i>(March 2017 - January 2018)</i>
+                    <ul>
+                        <li>Pure HTML, CSS and Vanilla JavaScript application</li>
+                        <li>Used <i>Cordova plugins</i> for native API functions</li>
+                    </ul>
+                </li>
+            </ul>
+            <h5>JSRE Developers Tasks</h5>
+            <p>Below are made using <strong>ReactJS x NodeJS</strong>. Built single page applications using <i>ReactJS</i> library. 
+                On the backend, I use <i>Express.js</i> for routing and APIs, <i>MySQL</i> as main database and <i>SQLite3</i> database for development and small applications. <i>(Full Stack February 2018 - March 2021)</i></p>
             <ul>
                 <li>Document Tracking System <span class="lt">(for DepEd NRC)</span></li>
                 <li>Realtime SMS Web Dashboard <span class="lt">(using Globelabs API)</span></li>
                 <li>Composer <span class="lt">(WYSIWYG Document Editor using CKEditor4)</span></li>
                 <li>Voucher Dispenser</li>
                 <li>Case Verifier</li>
-                <li>Realtime School Voting System Dashboard <span class="lt">(using Firebase database)</span></li>
-                <li>And more...</span></li>
+                <!-- <li>Realtime School Voting System Dashboard <span class="lt">(using Firebase database)</span></li>
+                <li>And more...</span></li> -->
             </ul>
 
             <h3 class="padd-top">SKILLS</h3>
