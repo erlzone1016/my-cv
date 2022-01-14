@@ -289,8 +289,24 @@
             <h3 class="padd-top">EDUCATION</h3>
             <p>2-yr. Associate in Information Technology at STI Malaybalay. Graduated with Honors <span
                     class="lt">(2014-2016)</span>.</p>
+
+            <div id="referer" style="display: none;">
+                <h3 class="padd-top">REFERRAL PARTNER</h3>
+                <strong>
+                    <p></p>
+                </strong>
+            </div>
         </div>
     </div>
+
+    <script>
+        let ref = (new URLSearchParams(window.location.search)).get('referral');
+        if(ref !== null){
+            let refererDOM = document.querySelector('#referer');
+            refererDOM.style.display = "block";
+            refererDOM.querySelector('p').textContent = ref;
+        }
+    </script>
 </body>
 
 </html>
