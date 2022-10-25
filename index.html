@@ -146,6 +146,19 @@
             font-size: 14px;
         }
 
+        .flex-row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .flex-row li {
+            /* width: 100%; */
+            /* max-width: 50%; */
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
         @media screen and (max-width: 600px) {
             .content {
                 padding: 32px;
@@ -246,7 +259,7 @@
             <h5>JSRE Developers Tasks</h5>
             <!-- <p>Below are made using <strong>ReactJS x NodeJS</strong>. Built single page applications using <i>ReactJS</i> library. 
                 On the backend, I use <i>Express.js</i> for routing and APIs, <i>MySQL</i> as main database and <i>SQLite3</i> database for development and small applications. <i>(Full Stack February 2018 - March 2021)</i></p> -->
-            <ul>
+            <ul class="flex-row">
                 <li>
                     <strong>Document Tracking System</strong>
                     <ul>
