@@ -34,7 +34,7 @@ const data = {
     phoneNumber: "+63 976 003 7116",
   },
   aboutMe: [
-    "Hi, I'm Erlson. I love using JavaScript in every application I create. Building a cross-platform application is super easy. I heard that you are looking for a React / NodeJS developer. I would like to grab the opportunity to be part of your team. I promise that I will do my best.",
+    "I’m Erlson, a passionate JavaScript developer with a strong focus on building efficient, cross-platform applications using ReactJS, React Native, and NodeJS. I enjoy solving complex problems through clean, scalable code and continuously strive to improve my skills. I’m eager to contribute to a collaborative team environment where I can add value and grow professionally.",
   ],
   experiences: [
     {
